@@ -1,5 +1,7 @@
 package com.cognizant.utils;
 
+import java.util.Random;
+
 import org.openqa.selenium.WebDriver;
 
 public class Constants {
@@ -20,7 +22,10 @@ public static int PickNthIphone=2;
 public static String NumberOfIphons="3";
 
 //New Customer Information
-public static String newCustEmail="User.Amazon124@gmail.com"; 
+
+static Random rn = new Random();
+
+public static String newCustEmail="User.Amazon"+ rn.nextInt(10) +"@gmail.com"; 
 public static String newCustName ="AmazonCust"; 
 public static String MobNum ="07898848483"; 
 public static String pwd ="SecureCust"; 
@@ -34,5 +39,11 @@ public static String Cnwty = "Enfield";
 public static String Pcode = "En3 4uq"; 
 public static String NameOfCountry ="United Kingdom"; 
 public static String PhNum = "07898848483";
+
+public void rr(int p){
+	Random rt = new Random();
+	int U =p;
+	rt.nextInt(U);
+}
 
 }
