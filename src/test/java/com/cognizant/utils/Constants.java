@@ -20,7 +20,7 @@ public static int PickNthIphone=2;
 public static String NumberOfIphons="3";
 
 //New Customer Information
-public static String newCustEmail="User.Amazon121@gmail.com"; 
+public static String newCustEmail="User.Amazon124@gmail.com"; 
 public static String newCustName ="AmazonCust"; 
 public static String MobNum ="07898848483"; 
 public static String pwd ="SecureCust"; 

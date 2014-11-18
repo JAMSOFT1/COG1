@@ -11,7 +11,7 @@ public class NewUserRegistrationPage {
 			this.driver=driver;
 		}
 	// NEW CUSTOMER NAME TEXT FIELD	
-	@FindBy(xpath="//div[@id='ap_register_name_input']/input")
+	@FindBy(xpath="//input[@id='ap_customer_name']")
 	WebElement NewCustName;
 	//NEW CUSTOMER EMAIL TEXT FIELD (PRE-POPULATED)	
 	@FindBy(xpath="//div[@id='ap_email_input']/input")
